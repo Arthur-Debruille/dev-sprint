@@ -1,0 +1,22 @@
+.card-container{
+    .card-img-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: white;
+        width: 322px;
+        height: 403px;
+        img{
+            
+        }
+    }
+    .card-products-info{
+        display: flex;
+        gap: 224px;
+        width: 322px;
+        margin-top: 12px;
+        margin-bottom: 40px;
+        p{
+        }
+    }
+}

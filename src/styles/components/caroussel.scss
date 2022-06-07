@@ -1,0 +1,14 @@
+.slider-container{
+  display: flex;
+  gap: 24px;
+  grid-column: 1/12;
+}
+.arrows{
+  margin-bottom: 200px;
+  grid-column: 11/12;
+  display: flex;
+  gap: 12px;
+  @media screen and (max-width: 970px){
+    grid-column: 5/5;
+}
+}

@@ -1,0 +1,14 @@
+.logo{
+    font-family: "PPPangramSans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 46px;
+    letter-spacing: 0.04em;
+    color: #1D1D1D;
+    text-transform: uppercase;
+    @media screen and (max-width : 970px){
+        font-size: 28px;
+        line-height: 31.92px;
+    }
+}

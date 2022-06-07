@@ -1,0 +1,37 @@
+.navigation-wrapper-desktop{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    @media screen and (max-width : 970px) {
+        display: none;
+    }
+    div ul {
+        display: flex;
+        gap: 20px;
+        li{
+            font-family: "PPPangramSans";
+            font-size: 24px;
+            line-height: 27.36px;
+            list-style-type: none;
+            text-transform: uppercase;
+        }
+    }
+    
+    .icone-menu-container{
+        display: flex;
+        gap: 20px;
+    }
+}
+
+.navigation-wrapper-mobile{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    display: none;
+    @media screen and (max-width : 970px) {
+        display: flex;
+    }
+}
+
+
+

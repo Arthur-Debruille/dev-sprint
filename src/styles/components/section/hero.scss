@@ -1,0 +1,46 @@
+.hero-conainer {
+  grid-column: 1/13;
+  @media screen and (max-width: 970px) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-span-container {
+    grid-column: 1/13;
+    z-index: 1;
+    // position: absolute;
+    top: 475px;
+    left: 155px;
+    @media screen and (max-width: 970px) {
+        position: static;
+        margin-bottom: 80px;
+      }
+    span {
+      display: block;
+      font-family: "PPPangramSans";
+      font-size: 200px;
+      line-height: 228px;
+      text-transform: uppercase;
+      @media screen and (max-width: 970px) {
+        font-size: 60px;
+        line-height: 68.4px;
+        text-align: center;
+      }
+    }
+  }
+  img {
+    // position: absolute;
+    left: 501px;
+    top: 200px;
+    width: 784px;
+    height: 1117px;
+    border-top-left-radius: 450px;
+    border-top-right-radius: 450px;
+    @media screen and (max-width: 970px) {
+        position: static;
+      width: 100%;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+    }
+  }
+}
