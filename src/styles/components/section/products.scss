@@ -6,7 +6,7 @@
     text-align: center;
     margin-bottom: 80px;
     @media screen and (max-width: 970px) {
-        grid-column: 3/8;
+        grid-column: 2/8;
       }
     div{
         margin-bottom: 80px;
@@ -17,13 +17,13 @@
             margin-bottom: 24px;
         }
     }
-    a{
-        background:#FADD4B;
-        color: #1D1D1D;
-        font-family: "NeueMontreal-Regular";
-        font-size: 16px;
-        text-decoration: none;
-        padding: 12px 40px;
-        border-radius: 32px;
-    }
+    // a{
+    //     background:#FADD4B;
+    //     color: #1D1D1D;
+    //     font-family: "NeueMontreal-Regular";
+    //     font-size: 16px;
+    //     text-decoration: none;
+    //     padding: 12px 40px;
+    //     border-radius: 32px;
+    // }
 }

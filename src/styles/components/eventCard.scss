@@ -1,0 +1,35 @@
+.event-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  .event-soon-info {
+    width: 322px;
+    height: 404px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .event-image-container {
+      .event-image {
+        width: 211px;
+        height: 288px;
+      }
+    }
+  }
+  .event-info-container{
+      margin-top: 16px;
+      max-width: 224px;
+      .event-title{
+        margin-bottom: 4px;
+      }
+      .event-date{
+        font-family: "NeueMontreal-Regular";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #1D1D1D;
+        margin-bottom: 200px;
+      }
+  }
+}

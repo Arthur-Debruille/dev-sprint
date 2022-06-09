@@ -4,108 +4,119 @@
 
 //fonts
 @font-face {
-    font-family: "NeueMontreal-Bold";
-    src: url("../../../fonts/NeueMontreal/NeueMontreal-Bold.otf") format("opentype");
+  font-family: "NeueMontreal-Bold";
+  src: url("../../../fonts/NeueMontreal/NeueMontreal-Bold.otf")
+    format("opentype");
 }
 
 @font-face {
-    font-family: "NeueMontreal-BoldItalic";
-    src: url("../../../fonts/NeueMontreal/NeueMontreal-BoldItalic.otf") format("opentype");
+  font-family: "NeueMontreal-BoldItalic";
+  src: url("../../../fonts/NeueMontreal/NeueMontreal-BoldItalic.otf")
+    format("opentype");
 }
 
 @font-face {
-    font-family: "NeueMontreal-Light";
-    src: url("../../../fonts/NeueMontreal/NeueMontreal-Light.otf") format("opentype");
+  font-family: "NeueMontreal-Light";
+  src: url("../../../fonts/NeueMontreal/NeueMontreal-Light.otf")
+    format("opentype");
 }
 
 @font-face {
-    font-family: "NeueMontreal-LightItalic";
-    src: url("../../../fonts/NeueMontreal/NeueMontreal-LightItalic.otf") format("opentype");
+  font-family: "NeueMontreal-LightItalic";
+  src: url("../../../fonts/NeueMontreal/NeueMontreal-LightItalic.otf")
+    format("opentype");
 }
 
 @font-face {
-    font-family: "NeueMontreal-Medium";
-    src: url("../../../fonts/NeueMontreal/NeueMontreal-Medium.otf") format("opentype");
+  font-family: "NeueMontreal-Medium";
+  src: url("../../../fonts/NeueMontreal/NeueMontreal-Medium.otf")
+    format("opentype");
 }
 
 @font-face {
-    font-family: "NeueMontreal-MediumItalic";
-    src: url("../../../fonts/NeueMontreal/NeueMontreal-MediumItalic.otf") format("opentype");
+  font-family: "NeueMontreal-MediumItalic";
+  src: url("../../../fonts/NeueMontreal/NeueMontreal-MediumItalic.otf")
+    format("opentype");
 }
 
 @font-face {
-    font-family: "NeueMontreal-Regular";
-    src: url("../../../fonts/NeueMontreal/NeueMontreal-Regular.otf") format("opentype");
+  font-family: "NeueMontreal-Regular";
+  src: url("../../../fonts/NeueMontreal/NeueMontreal-Regular.otf")
+    format("opentype");
 }
 
 @font-face {
-    font-family: "NeueMontreal-RegularItalic";
-    src: url("../../../fonts/NeueMontreal/NeueMontreal-RegularItalic.otf") format("opentype");
+  font-family: "NeueMontreal-RegularItalic";
+  src: url("../../../fonts/NeueMontreal/NeueMontreal-RegularItalic.otf")
+    format("opentype");
 }
 
 @font-face {
-    font-family: "PPPangramSans";
-    src: url("../../../fonts/PPPangram/PPPangramSans-CompressedExtrabold.otf") format("opentype");
+  font-family: "PPPangramSans";
+  src: url("../../../fonts/PPPangram/PPPangramSans-CompressedExtrabold.otf")
+    format("opentype");
 }
-
-
-
-
-
-
-
-
 
 // Basic Style
-body{
-    background-color: #FFF5E5;
-    overflow-x: hidden;
+body {
+  background-color: #fff5e5;
+  overflow-x: hidden;
 }
 
-main{
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    column-gap: 24px;
-    margin-left: 40px;
-    margin-right: 40px;
-    @media screen and (max-width: 970px) {
-        grid-template-columns: repeat(8, 1fr);
-        column-gap: 12px;
-        margin-top: 80px;
-        margin-left: 0px;
-        margin-right: 0px;
-    }
+main {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  column-gap: 24px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 200px;
+  @media screen and (max-width: 970px) {
+    grid-template-columns: repeat(8, 1fr);
+    column-gap: 12px;
+    margin-top: 80px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 }
 
-// H1 : 200 px H2 : 120 px H3-MAJ : 60px H4 : 40px Primary-paragraph : 20px Secondary-paragraph : 16px 
+// H1 : 200 px H2 : 120 px H3-MAJ : 60px H4 : 40px Primary-paragraph : 20px Secondary-paragraph : 16px
 
-h1{
-    font-size: 200px;
+h1 {
+  font-size: 200px;
+  font-family: "PPPangramSans";
+  font-weight: 800;
+  font-size: 200px;
+  line-height: 228px;
 }
 
-h2{
-    font-size: 120px;
+h2 {
+  font-size: 120px;
 }
 
-h3.maj{
-    font-style: 60px;
+h3.maj {
+  font-style: 60px;
 }
 
-h4{
-    font-size: 40px;
-    font-family: "PPPangramSans";
-    color: #1D1D1D;
-    @media screen and (max-width: 970px){
-        font-size: 24px;
-    }
+h4 {
+  font-size: 40px;
+  font-family: "PPPangramSans";
+  color: #1d1d1d;
+  @media screen and (max-width: 970px) {
+    font-size: 24px;
+  }
 }
 
-p.primary{
-    font-family: "NeueMontreal-Regular";
-    font-size: 20px;
-    font-weight: 400;
+p.primary {
+  font-family: "NeueMontreal-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
 }
 
-p.secondary{
-    font-size: 16px;
+p.secondary {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
 }

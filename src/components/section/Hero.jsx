@@ -10,7 +10,9 @@ function Hero() {
           <span>librairie</span>
           <span>expérience</span>
         </div>
-        <img className="hero-image" srcSet={HeroImg} />
+        <div>
+          <img className="hero-image" srcSet={HeroImg} />
+        </div>
       </div>
     </>
   );

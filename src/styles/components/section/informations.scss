@@ -5,7 +5,7 @@
   width: 100vw;
   display: flex;
   @media screen and (max-width: 970px) {
-    flex-direction: column;
+    flex-direction: column-reverse;
     margin-left: 0px;
     margin-right: 0px;
   }
@@ -31,31 +31,37 @@
     }
     .info-container {
       max-width: 438px;
+      @media screen and (max-width: 970px) {
+        padding: 80px 20px;
+      }
       h4 {
         color: white;
         margin-bottom: 24px;
       }
       p {
         margin-bottom: 16px;
+        @media screen and (max-width: 970px) {
+          font-size: 16px;
+        }
       }
       div {
         margin-top: 40px;
-        a {
-          background: #fadd4b;
-          color: #1d1d1d;
-          font-family: "NeueMontreal-Regular";
-          font-size: 16px;
-          text-decoration: none;
-          padding: 12px 40px;
-          border-radius: 32px;
-          @media screen and (max-width: 970px) {
-            padding: 12px 172px;
-          }
-        }
+        // a {
+        //   background: #fadd4b;
+        //   color: #1d1d1d;
+        //   font-family: "NeueMontreal-Regular";
+        //   font-size: 16px;
+        //   text-decoration: none;
+        //   padding: 12px 40px;
+        //   border-radius: 32px;
+        //   @media screen and (max-width: 970px) {
+        //     padding: 12px 172px;
+        //   }
+        // }
       }
-      @media screen and (max-width: 970px) {
-        padding: 20px;
-      }
+      // @media screen and (max-width: 970px) {
+      //   padding: 20px;
+      // }
     }
   }
 }

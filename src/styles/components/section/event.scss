@@ -1,0 +1,70 @@
+.event-container {
+  grid-column: 1/13;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 200px;
+  @media screen and (max-width: 970px) {
+    grid-column: 2/8;
+    display: block;
+    text-align: left;
+    margin-top: 80px;
+  }
+  .event {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media screen and (max-width: 970px) {
+      display: block;
+      text-align: left;
+    }
+    .all-event-container {
+      .event-info {
+        max-width: 553px;
+        margin-top: 24px;
+        margin-bottom: 40px;
+        font-family: "NeueMontreal-Regular";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        .h4-event-title {
+          @media screen and (max-width: 970px) {
+            display: block;
+            font-weight: 800;
+            font-size: 24px;
+            line-height: 32px;
+          }
+        }
+        .event-info {
+          @media screen and (max-width: 970px) {
+            display: block;
+            text-align: left;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+          }
+        }
+      }
+
+      .button-event {
+        margin-bottom: 80px;
+      }
+    }
+
+    .event-soon-container {
+      display: flex;
+      gap: 24px;
+    }
+  }
+}
+
+.slider-event-arrows {
+  grid-column: 5/9;
+  margin-top: -145px;
+  display: none;
+  @media screen and (max-width: 970px) {
+    display: block;
+  }
+}

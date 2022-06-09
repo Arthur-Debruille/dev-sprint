@@ -6,6 +6,8 @@ import Header from '../components/Header.jsx'
 import Hero from "../components/section/Hero";
 import Products from "../components/section/Products.jsx"
 import Informations from "../components/section/Informations";
+import Discover from "../components/section/Discover";
+import Event from "../components/section/Event";
 
 // markup
 const IndexPage = () => {
@@ -16,6 +18,8 @@ const IndexPage = () => {
       <Hero/>
       <Products/>
       <Informations/>
+      <Discover/>
+      <Event/>
     </main>
     <Footer/>
     </>

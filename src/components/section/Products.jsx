@@ -1,6 +1,7 @@
 import React from "react";
 import "../../styles/components/section/products.scss";
 import Caroussel from "../utils/Caroussel";
+import Buttons from "../utils/Button";
 
 function Products() {
   return (
@@ -14,7 +15,7 @@ function Products() {
             bien d’autres choses encore !
           </p>
         </div>
-        <a href="#">Accéder à la boutique</a>
+        <Buttons type="shop-visit">Accéder à la boutique</Buttons>
       </div>
       <Caroussel/>
     

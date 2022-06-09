@@ -1,0 +1,74 @@
+.discover-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 1315px;
+  grid-column: 1/13;
+  margin-left: -40px;
+  margin-right: -40px;
+  background: #fadd4b;
+  @media screen and (max-width: 970px) {
+    height: 586px;
+    grid-column: 1/9;
+  }
+  div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p {
+      font-size: 200px;
+      font-family: "PPPangramSans";
+      font-weight: 800;
+      font-size: 200px;
+      line-height: 228px;
+      margin-top: 200px;
+      @media screen and (max-width: 970px) {
+        margin-top: 80px;
+        font-weight: 800;
+        font-size: 60px;
+        line-height: 68px;
+      }
+    }
+    .frame-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-sizing: border-box;
+      top: 328px;
+      width: 399.42px;
+      height: 501.56px;
+      background: #fadd4b;
+      border: 1px solid #1d1d1d;
+      transform: rotate(4deg) translateY(-100px);
+      @media screen and (max-width: 970px) {
+        width: 151.25px;
+        height: 189.92px;
+        transform: rotate(4deg) translateY(-22px);
+      }
+      .frame {
+        transform: rotate(-4deg);
+        @media screen and (max-width: 970px) {
+          width: 81.74px;
+          height: 111.57px;
+        }
+      }
+    }
+    .discover-paragraph {
+      max-width: 438px;
+      text-align: center;
+      font-family: "NeueMontreal-Regular";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 32px;
+      margin-top: 66px;
+      @media screen and (max-width: 970px) {
+        max-width: 280px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+      }
+    }
+  }
+}

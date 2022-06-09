@@ -1,6 +1,7 @@
 import React from "react";
 import "../../styles/components/section/informations.scss";
 import Apropos from "../../images/apropos.png";
+import Buttons from "../utils/Button.jsx";
 
 function Informations() {
   return (
@@ -23,7 +24,7 @@ function Informations() {
               sérigraphie où nous fabriquons nos propres productions.
             </p>
             <div>
-              <a href="#">En savoir plus</a>
+              <Buttons type="more-info">En savoir plus</Buttons>
             </div>
           </div>
         </div>
