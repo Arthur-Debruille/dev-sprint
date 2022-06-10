@@ -1,14 +1,18 @@
-.slider-container{
+.slider-container {
   display: flex;
   gap: 24px;
   grid-column: 1/12;
 }
-.arrows{
+.arrows {
   margin-bottom: 200px;
   grid-column: 11/12;
   display: flex;
   gap: 12px;
-  @media screen and (max-width: 970px){
+  @media screen and (max-width: 970px) {
     grid-column: 5/5;
-}
+  }
+  .arrow-left,
+  .arrow-right{
+    cursor: pointer;
+  }
 }

@@ -1,22 +1,24 @@
-.card-container{
-    .card-img-container{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background: white;
-        width: 322px;
-        height: 403px;
-        img{
-            
-        }
+.card-container {
+  .card-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    width: 322px;
+    height: 403px;
+  }
+  .card-products-info {
+    display: flex;
+    justify-content: space-between;
+    width: 322px;
+    margin-top: 12px;
+    margin-bottom: 40px;
+    .card-products-title,
+    .card-products-price {
+      font-family: "NeueMontreal-Regular";
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 32px;
     }
-    .card-products-info{
-        display: flex;
-        gap: 224px;
-        width: 322px;
-        margin-top: 12px;
-        margin-bottom: 40px;
-        p{
-        }
-    }
+  }
 }

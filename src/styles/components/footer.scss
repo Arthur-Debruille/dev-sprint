@@ -60,6 +60,7 @@ footer {
         max-width: 300px;
       }
       .social-network {
+        cursor: pointer;
         .follow {
           color: white;
           margin-bottom: 18px;
@@ -82,14 +83,19 @@ footer {
         .newsletter-input {
           width: 553px;
           height: 56px;
-          background-image: #ffffff;
+          background: #ffffff;
           border-radius: 28px;
           border: none;
+          outline: none;
+          font-family: "NeueMontreal-Regular";
+          font-size: 20px;
+          text-align: center;
           @media screen and (max-width: 970px) {
             width: 100%;
           }
         }
         .newsletter-button {
+          cursor: pointer;
           width: 33px;
           height: 33px;
           transform: translate(505px, -45px);

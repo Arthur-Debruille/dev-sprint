@@ -49,7 +49,7 @@ const Footer = () => {
             </div>
             <div className="newletter-container">
               <h4 className="newsletter-title">Newsletter</h4>
-              <input className="newsletter-input" type="text" />
+              <input className="newsletter-input" type="text" placeholder="Entrez votre mail" />
               <div className="newsletter-button">
                 <svg
                   width="33"

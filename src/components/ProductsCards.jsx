@@ -9,8 +9,8 @@ function ProductsCards(props) {
             <img src={props.img} alt="" />
         </div>
         <div className='card-products-info'>
-        <p>TITRE</p>
-        <p>PRIX € </p>
+        <p className='card-products-title'>{props.title}</p>
+        <p className='card-products-price'>{props.price}</p>
         </div>
     </div>
     </>

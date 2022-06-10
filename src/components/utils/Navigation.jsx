@@ -7,19 +7,19 @@ function Navigation() {
       <div className="navigation-wrapper-desktop">
         <div>
           <ul>
-            <li>
+            <li className="link">
               <a href="#"></a>la libraire
             </li>
-            <li>
+            <li className="link">
               <a href="#"></a>coups de coeur
             </li>
-            <li>
+            <li className="link">
               <a href="#"></a>événements
             </li>
-            <li>
+            <li className="link">
               <a href="#"></a>boutique
             </li>
-            <li>
+            <li className="link">
               <a href="#"></a>contact
             </li>
           </ul>
